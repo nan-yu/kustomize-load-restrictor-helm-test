@@ -1,0 +1,13 @@
+helmGlobals:
+  chartHome: ../../components
+helmCharts:
+- name: coredns
+  releaseName: coredns
+  namespace: coredns-system
+  version: v1.2.3
+  includeCRDs: true
+  valuesFile: values.yaml
+  additionalValuesFiles:
+  - ../../overlays/dev/values.yaml
+  
+  

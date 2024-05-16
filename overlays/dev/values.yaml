@@ -1,0 +1,5 @@
+image:
+  repository: coredns/coredns
+  tag: "1.8.5"
+  pullPolicy: Always
+  
